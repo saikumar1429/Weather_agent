@@ -13,7 +13,7 @@ st.title("Weather Agent ☁️")
 st.markdown("Enter a city name to get the current weather conditions.")
 
 
-api_key = ""
+api_key = "Enter your api key"
 
 col1, col2 = st.columns([3, 1])
 with col1:
@@ -44,4 +44,5 @@ if get_weather_btn:
 # Footer
 st.markdown("---")
 st.markdown("Powered by OpenWeatherMap")
+
 
